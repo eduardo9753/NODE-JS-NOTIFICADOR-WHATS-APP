@@ -1,0 +1,32 @@
+<!--NAV-->
+{{> nav}}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 text-center mx-auto mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <form id="form_simulacros" method="post">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Digite el nombre del Examen</label>
+                            <input type="text" name="nombre_examen" id="nombre_examen" value="" class="form-control" placeholder="Nombre del Examen">
+                            <div id="emailHelp" class="form-text">aqui podra digital el nombre del simulacro.
+                            </div>
+                        </div>
+
+                        <button id="enviar_simulacro" class="btn btn-success w-100" type="submit">
+                            <span id="btn_text_simulacro">Enviar</span>
+                            <span id="btn_spinner_simulacro" class="spinner-border spinner-border-sm d-none"></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-5">
+            <div class="card-body">
+                <p id="status_text_simulacro"></p>
+            </div>
+        </div>
+    </div>
+</div>

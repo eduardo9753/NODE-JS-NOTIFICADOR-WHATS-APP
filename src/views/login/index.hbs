@@ -1,0 +1,94 @@
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .login-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .login-image {
+        background: url("https://img.freepik.com/free-vector/login-concept-illustration_114360-739.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    .form-control {
+        border-radius: 10px;
+    }
+
+    .btn-primary {
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .social-btns .btn {
+        border-radius: 50%;
+        margin: 0 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .img-logo {
+        background-color: black;
+        width: 200px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+</style>
+
+
+<body>
+
+    <div class="container login-container">
+        <div class="row w-75">
+            <!-- Columna Imagen -->
+            <div class="col-md-6 login-image d-none d-md-block">
+            </div>
+
+            <!-- Columna Formulario -->
+            <div class="col-md-6 bg-white p-5">
+                <h4 class="mb-3 text-center">Notificador Banquea</h4>
+
+                <!-- logo banquea -->
+                <div class="d-flex justify-content-center social-btns mb-3">
+                    <img src="https://banquea.pe/assets/images/logo1.png" alt="" class="img-logo">
+                </div>
+
+                <div class="text-center mb-3">Acceso</div>
+
+                <!-- Formulario -->
+                <form action="/home/banquea" method="get">
+                    <div class="mb-3">
+                        <label class="form-label">Email address</label>
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" placeholder="Enter your password">
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <div>
+                            <input type="checkbox" id="remember">
+                            <label for="remember">Remember me</label>
+                        </div>
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">LOGIN</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
