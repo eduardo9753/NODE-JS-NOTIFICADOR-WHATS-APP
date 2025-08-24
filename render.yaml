@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: notificador-node
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: PUPPETEER_EXECUTABLE_PATH
+        value: "/usr/bin/chromium-browser"
