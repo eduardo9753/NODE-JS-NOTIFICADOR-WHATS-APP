@@ -1,9 +1,6 @@
-2025/08/21-16:56:02.591 3e7c Reusing MANIFEST D:\ESCRITORIO\NODE-JS\preguntas\tokens\quiz-bot\Default\Local Storage\leveldb/MANIFEST-000001
-2025/08/21-16:56:02.606 3e7c Recovering log #19
-2025/08/21-16:56:02.613 3e7c Reusing old log D:\ESCRITORIO\NODE-JS\preguntas\tokens\quiz-bot\Default\Local Storage\leveldb/000019.log 
-2025/08/21-17:00:03.016 3338 Level-0 table #23: started
-2025/08/21-17:00:03.079 3338 Level-0 table #23: 12466 bytes OK
-2025/08/21-17:00:03.107 3338 Delete type=0 #19
-2025/08/21-18:15:03.015 3338 Level-0 table #25: started
-2025/08/21-18:15:03.095 3338 Level-0 table #25: 12379 bytes OK
-2025/08/21-18:15:03.129 3338 Delete type=0 #22
+2025/08/25-10:26:50.889 5348 Reusing MANIFEST D:\ESCRITORIO\NODE-JS\notificador\tokens\quiz-bot\Default\Local Storage\leveldb/MANIFEST-000001
+2025/08/25-10:26:50.903 5348 Recovering log #31
+2025/08/25-10:26:51.036 5348 Reusing old log D:\ESCRITORIO\NODE-JS\notificador\tokens\quiz-bot\Default\Local Storage\leveldb/000031.log 
+2025/08/25-10:44:51.403 10b8 Level-0 table #35: started
+2025/08/25-10:44:51.468 10b8 Level-0 table #35: 13156 bytes OK
+2025/08/25-10:44:51.491 10b8 Delete type=0 #31

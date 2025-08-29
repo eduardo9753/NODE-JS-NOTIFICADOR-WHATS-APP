@@ -1,15 +1,6 @@
-2025/08/21-20:10:37.430 22fc Reusing MANIFEST D:\ESCRITORIO\NODE-JS\preguntas\tokens\quiz-bot\Default\Local Storage\leveldb/MANIFEST-000001
-2025/08/21-20:10:37.442 22fc Recovering log #24
-2025/08/21-20:10:37.448 22fc Reusing old log D:\ESCRITORIO\NODE-JS\preguntas\tokens\quiz-bot\Default\Local Storage\leveldb/000024.log 
-2025/08/21-20:27:38.018 9a0 Level-0 table #28: started
-2025/08/21-20:27:38.083 9a0 Level-0 table #28: 12349 bytes OK
-2025/08/21-20:27:38.117 9a0 Delete type=0 #24
-2025/08/21-20:27:38.119 9a0 Compacting 4@0 + 1@1 files
-2025/08/21-20:27:38.161 9a0 Generated table #29@0: 122 keys, 8818 bytes
-2025/08/21-20:27:38.161 9a0 Compacted 4@0 + 1@1 files => 8818 bytes
-2025/08/21-20:27:38.192 9a0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/08/21-20:27:38.196 9a0 Delete type=2 #17
-2025/08/21-20:27:38.196 9a0 Delete type=2 #20
-2025/08/21-20:27:38.196 9a0 Delete type=2 #23
-2025/08/21-20:27:38.197 9a0 Delete type=2 #25
-2025/08/21-20:27:38.197 9a0 Delete type=2 #28
+2025/08/28-14:58:24.654 2f70 Reusing MANIFEST D:\ESCRITORIO\NODE-JS\notificador\tokens\quiz-bot\Default\Local Storage\leveldb/MANIFEST-000001
+2025/08/28-14:58:24.667 2f70 Recovering log #34
+2025/08/28-14:58:24.680 2f70 Reusing old log D:\ESCRITORIO\NODE-JS\notificador\tokens\quiz-bot\Default\Local Storage\leveldb/000034.log 
+2025/08/28-15:41:25.221 7d8 Level-0 table #38: started
+2025/08/28-15:41:25.292 7d8 Level-0 table #38: 14110 bytes OK
+2025/08/28-15:41:25.315 7d8 Delete type=0 #34

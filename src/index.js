@@ -3,18 +3,32 @@ import morgan from 'morgan';
 import { create } from 'express-handlebars';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import dotenv from 'dotenv';
+import session from 'express-session';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+//cargandr las variables de entorno
+dotenv.config();
 
 //importacion de rutas
 import { router as index } from './routes/index.router.js';
 import { router as notificador } from './routes/notificador.route.js';
 import { router as notificadorCientifica } from './routes/notificador.simulacros.router.js';
+import { router as notificadorSoporte } from './routes/notificador.soporte.route.js';
 
 
 //inicializar
 const app = express();
+
+//para las sessiones del usuario
+app.use(session({
+    secret: process.env.SECRET,
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false } // para https(true)
+}));
 
 //configuracion de puerto
 app.set('port', process.env.PORT || 4000);
@@ -42,6 +56,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use('', index);
 app.use('', notificador);
 app.use('', notificadorCientifica);
+app.use('', notificadorSoporte);
 
 //correr servidor
 app.listen(app.get('port'), () => console.log('server lisening on port: ', app.get('port')));

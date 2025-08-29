@@ -1,0 +1,38 @@
+<!--NAV-->
+{{> nav}}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 text-center mx-auto mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <form id="form_notificador_soporte" method="post">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Escoga la Entidad</label>
+                            <select class="form-select form-select-lg mb-3" id="entidad"
+                                aria-label="Default select example">
+                                <option selected>Lista</option>
+                                <option value="Continental">Continental</option>
+                                <option value="Cientifica">Cientifica</option>
+                                <option value="Cayetano">Cayetano</option>
+                            </select>
+                            <div id="emailHelp" class="form-text">aqui podra escoger la entidad para el envio de datos del soporte y correo TI.
+                            </div>
+                        </div>
+
+                        <button id="enviar_soporte" class="btn btn-success w-100" type="submit">
+                            <span id="btn_text_soporte">Enviar</span>
+                            <span id="btn_spinner_soporte" class="spinner-border spinner-border-sm d-none"></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-5">
+            <div class="card-body">
+                <p id="status_text_soporte"></p>
+            </div>
+        </div>
+    </div>
+</div>
